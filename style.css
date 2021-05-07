@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  padding-top: 70px;
+  background-color: #eee;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #42b8e3;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#main {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#main h1 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 5vw;
+  margin: 0;
+  padding: 0;
+}
+
+#main p {
+  margin: 0;
+  font-size: 2vw;
+}
+
+#img-div {
+  background-color: white;
+  padding: 1em;
+}
+
+#img-caption {
+  font-size: 1em;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+}
+
+#tribute-info {
+  width: 600px;
+  margin: 50px auto;
+}
+
+#tribute-info h2 {
+  text-align: center;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tribute-info li {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.teams {
+  position: relative;
+}
+
+.teams .teams-image {
+  width: 100%;
+  height: 100%;
+}
+
+.teams .teams-overlay {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.teams .teams-overlay:hover {
+  opacity: 0.5;
+}
+
+.date-join {
+  font-size: 1em;
+}
+
+.teams-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+#videos {
+  text-align: center;
+}
+
+.video-list {
+  margin-top: 30px;
+}
+
+#social {
+  text-align: center;
+  padding: 0;
+  background-color: #42b8e3;
+  padding: 5px 0;
+}
+
+#social h2 {
+  color: white;
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#social li {
+  font-size: 2em;
+  margin: 0 20px;
+}
+
+#social ul li a {
+  color: white;
+  text-decoration: none;
+}
